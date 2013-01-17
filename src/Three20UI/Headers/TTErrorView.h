@@ -27,7 +27,7 @@
 @property (nonatomic, retain) UIImage*  image;
 @property (nonatomic, copy)   NSString* title;
 @property (nonatomic, copy)   NSString* subtitle;
-@property (nonatomic, copy)   TTButton* reloadButton;
+@property (nonatomic, retain)   TTButton* reloadButton;
 
 
 /**

@@ -18,10 +18,10 @@
 #import "Three20UI/TTTabBar.h"
 
 @interface TTTabStrip : TTTabBar <UIScrollViewDelegate> {
+    UIScrollView* _scrollView;
 @private
   TTView*       _overflowLeft;
   TTView*       _overflowRight;
-  UIScrollView* _scrollView;
 
   BOOL    _contentSizeCached;
   CGSize  _contentSize;
